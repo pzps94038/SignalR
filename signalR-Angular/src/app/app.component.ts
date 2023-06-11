@@ -3,6 +3,7 @@ import { Component, OnDestroy, OnInit } from '@angular/core';
 import * as signalR from '@microsoft/signalr';
 import { HubConnectionBuilder } from '@microsoft/signalr';
 import { fromEvent } from 'rxjs';
+import { environment } from 'src/environments/environment';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -16,7 +17,7 @@ export class AppComponent implements OnInit {
 
   ngOnInit() {
     this.connection = new signalR.HubConnectionBuilder()
-      .withUrl('http://localhost:5000/chathub')
+      .withUrl(`${environment.baseUrl}/chathub`)
       .build();
     this.createConection();
   }

@@ -78,7 +78,7 @@ namespace SignalR.Hubs
         }
 
         /// <summary>
-        /// 公開聊天室留言
+        /// 私密聊天室留言
         /// </summary>
         /// <param name="message"></param>
         /// <returns></returns>
