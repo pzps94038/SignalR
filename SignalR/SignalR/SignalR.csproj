@@ -11,4 +11,18 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Remove="Model\" />
+    <None Remove="Model\Chat\" />
+    <None Remove="Model\Shared\" />
+    <None Remove="Hubs\" />
+    <None Remove="Core\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Model\" />
+    <Folder Include="Model\Chat\" />
+    <Folder Include="Model\Shared\" />
+    <Folder Include="Hubs\" />
+    <Folder Include="Core\" />
+  </ItemGroup>
 </Project>

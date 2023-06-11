@@ -1,34 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\asus\\Desktop\\git\\SignalR\\SignalR\\SignalR\\SignalR.csproj": {}
+    "/Users/ron/Desktop/Project/SignalR/SignalR/SignalR/SignalR.csproj": {}
   },
   "projects": {
-    "C:\\Users\\asus\\Desktop\\git\\SignalR\\SignalR\\SignalR\\SignalR.csproj": {
+    "/Users/ron/Desktop/Project/SignalR/SignalR/SignalR/SignalR.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\asus\\Desktop\\git\\SignalR\\SignalR\\SignalR\\SignalR.csproj",
+        "projectUniqueName": "/Users/ron/Desktop/Project/SignalR/SignalR/SignalR/SignalR.csproj",
         "projectName": "SignalR",
-        "projectPath": "C:\\Users\\asus\\Desktop\\git\\SignalR\\SignalR\\SignalR\\SignalR.csproj",
-        "packagesPath": "C:\\Users\\asus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\asus\\Desktop\\git\\SignalR\\SignalR\\SignalR\\obj\\",
+        "projectPath": "/Users/ron/Desktop/Project/SignalR/SignalR/SignalR/SignalR.csproj",
+        "packagesPath": "/Users/ron/.nuget/packages/",
+        "outputPath": "/Users/ron/Desktop/Project/SignalR/SignalR/SignalR/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "/Users/ron/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "/usr/local/share/dotnet/sdk/7.0.302/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -62,7 +54,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -74,7 +67,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300-preview.22204.3\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.302/RuntimeIdentifierGraph.json"
         }
       }
     }
